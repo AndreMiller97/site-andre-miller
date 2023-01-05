@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
     <title>André Miller</title>
 </head>
 <body>
@@ -14,11 +15,11 @@
             <div class="barra-navegacao">
                 <h2 class="titulo-navegacao">André Miller</h2>
                <div>
-                <a class="links-navegacao" href="">Habilidades</a>
-                <a class="links-navegacao" href="">Portifólio</a>
-                <a class="links-navegacao" href="">Experiências</a>
+                <a onclick="onClickScrollTo('section-abilities')" class="links-navegacao" >Habilidades</a>
+                <a onclick="onClickScrollTo('section-portifolio')" class="links-navegacao">Portifólio</a>
+                <a onclick="onClickScrollTo('section-experiences')" class="links-navegacao">Experiências</a>
                </div>
-                <button>CONTATO</button>
+                <button  onclick="onClickScrollTo('section-contact')">CONTATO</button>
             </div>
             <div class="hero-info">
                 <div>
@@ -26,7 +27,7 @@
                     <p class="hero-info-subtitle">
                         Estudade de programação desde 2017, com foco em front-end na tecnologia React.js, onde estudo até hoje para me manter atualizado buscando minha 1° oportunidade como desenvolvedor.
                     </p>
-                    <button>ENTRAR EM CONTATO</button>
+                    <button onclick="onClickScrollTo('section-contact')">ENTRAR EM CONTATO</button>
                     <div class="hero-info-icons-container">
                         <a href="">
                              <img class="hero-info-icons-img"  src="icons/github.png" alt="meu repositório no github">
@@ -48,7 +49,7 @@
             </div>
         </section>
         <!--section de habilidades que terei-->
-        <section class="section-abilities">
+        <section class="section-abilities" id="section-abilities">
             <h2>Habilidades </h2>
             <h2 class="azul">que domino.</h2>
             <div class="ability-card-container">
@@ -118,7 +119,7 @@
           
         </section>
         <!--section de portifolio-->
-        <section class="section-portifolio"> 
+        <section class="section-portifolio" id="section-portifolio"> 
         <h2>Portifólio </h2>
         <h2 class="azul">de projetos.</h2>
         <div class="section-portifolio-grid">
@@ -164,7 +165,7 @@
         </div>
         </section>    
         <!--section de experiências-->    
-        <section class="section-experiences">
+        <section class="section-experiences" id="section-experiences">
             <h2>Experiências</h2>
             <h2 class="azul">profissionais.</h2>
             <div class="section-experiences-card">
@@ -195,7 +196,7 @@
             </div>
         </section>
         <!--section de contato-->
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
             <h2>Como posso </h2>
             <h2 class="azul">te ajudar?</h2>
             <p>Estou a disposição para ajudar o seu projeto ou sua empresa. </p>
