@@ -73,15 +73,6 @@ footer{
     justify-content: center;
 
 }
-.section-hero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%; /*vw largura visivel da tela do browser*/
-    height: 90vh; /*vh altura visivel da tela do browser*/
-   
-}
 .root-container{
     display: flex;
     flex-direction: column;
@@ -94,6 +85,16 @@ footer{
     width: 1216px;
     align-items: center;
     justify-content: flex-start;
+}
+
+.section-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%; /*vw largura visivel da tela do browser*/
+    height: 90vh; /*vh altura visivel da tela do browser*/
+   
 }
 .barra-navegacao{
     display: flex;
