@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>André Miller</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mobile.css">
     <script src="index.js"></script>
-    <title>André Miller</title>
 </head>
 <body>
    <div class="root-container">
@@ -16,53 +13,80 @@
             <div class="barra-navegacao">
                 <h2 class="titulo-navegacao">André Miller</h2>
                <div>
-                <a onclick="onClickScrollTo('section-abilities')" class="links-navegacao" >Habilidades</a>
-                <a onclick="onClickScrollTo('section-portifolio')" class="links-navegacao">Portifólio</a>
-                <a onclick="onClickScrollTo('section-experiences')" class="links-navegacao">Experiências</a>
+                    <a
+                    onclick="onClickScrollTo('section-abilities')"
+                    class="links-navegacao"
+                    >Habilidades
+                    </a>
+                    <a
+                        class="links-navegacao"
+                        onclick="onClickScrollTo('section-portfolio')"
+                        >Portfólio
+                        </a>
+                    <a
+                        class="links-navegacao"
+                        onclick="onClickScrollTo('section-experiences')"
+                        >Experiência
+                    </a>
                </div>
                 <button  onclick="onClickScrollTo('section-contact')">CONTATO</button>
             </div>
             <div class="hero-info">
                 <div class="hero-info-text-container">
-                    <h2 class="hero-info-title">Olá, muito prazer!<br /> Sou o André Miller</h2>
+                    <h1 class="hero-info-title">
+                        Olá, muito prazer!<br /> Sou o André Miller
+                    </h1>
                     <p class="hero-info-subtitle">
-                        Estudade de programação desde 2017, com foco em front-end na tecnologia React.js, onde estudo até hoje para me manter atualizado buscando minha 1° oportunidade como desenvolvedor.
+                        Estudante de programação desde 2017, com foco em front-end na tecnologia React.js, onde estudo até hoje para me manter atualizado buscando minha 1° oportunidade como desenvolvedor.
                     </p>
                     <button onclick="onClickScrollTo('section-contact')">ENTRAR EM CONTATO</button>
                     <div class="hero-info-icons-container">
                         <a onclick="onClickLink('https://github.com/AndreMiller97')">
-                             <img class="hero-info-icons-img"  src="icons/github.png" alt="meu repositório no github">
+                             <img class="hero-info-icons-img"  
+                             src="icons/github.png" 
+                             alt="meu repositório no github"
+                            >
                         </a>
                         <a  onclick="onClickLink('https://www.linkedin.com/in/andre-miller-745587197')">
-                            <img class="hero-info-icons-img"  src="icons/linkdin.png" alt="link para meu linkdin">
+                            <img class="hero-info-icons-img"  
+                            src="icons/linkdin.png" 
+                            alt="link para meu linkdin">
                         </a>
-                        <a href="">
-                            <img class="hero-info-icons-img"  src="icons/youtube.png" alt="limk para meu canal no youtube">
+                        <a >
+                            <img class="hero-info-icons-img"  
+                            src="icons/youtube.png" 
+                            alt="limk para meu canal no youtube">
                         </a>
-                        <a href="">
-                            <img class="hero-info-icons-img"  src="icons/instagram.png" alt="link para meu instagram">
+                        <a >
+                            <img class="hero-info-icons-img" 
+                             src="icons/instagram.png"
+                              alt="link para meu instagram">
                         </a>
                     </div>
                 </div>
                 <div>
-                    <img class="hero-info-img" src="img/perfil.JPG" alt="perfil André Miller">
+                    <img class="hero-info-image" 
+                    src="img/perfil.JPG" 
+                    alt="perfil André Miller">
                 </div>
             </div>
         </section>
         <!--section de habilidades que terei-->
-        <section class="section-abilities" id="section-abilities">
+        <section class="section-abilities"  id="section-abilities">
             <h2>Habilidades </h2>
             <h2 class="azul">que domino.</h2>
-            <div class="ability-card-container">
+            <div class="ability-cards-container">
                 <div class="ability-card">
                     <div class="ability-card-icon-container">
-                        <img class="ability-card-img" src="icons/dev.png" alt="Habilidades">
+                        <img class="ability-card-icon-img" 
+                         src="icons/dev.png"
+                         alt="Habilidades">
                     </div>
                     <h5>Habilidades Gerais </h5>
                     <p class="card" >
                          Tecnologias que utilizo no dia a dia da programação.
                     </p>
-                    <ul class="ability-list ">
+                    <ul class="ability-list">
                         <li>Git</li>
                         <li>Github</li>
                         <li>Docker</li>
@@ -73,7 +97,9 @@
                 </div>
                 <div class="ability-card">
                     <div class="ability-card-icon-container">
-                        <img class="ability-card-img" src="icons/front.png" alt="front-end">
+                        <img class="ability-card-icon-img"
+                         src="icons/front.png" 
+                         alt="front-end">
                     </div>
                     <h5>Front-End</h5>
                     <p class="card">
@@ -95,7 +121,9 @@
                 </div>
                 <div class="ability-card">
                     <div class="ability-card-icon-container">
-                        <img class="ability-card-img" src="icons/back.png" alt="Back-end">
+                        <img class="ability-card-icon-img" 
+                        src="icons/back.png" 
+                        alt="Back-end">
                     </div>
                     <h5>Back-End</h5>
                     <p class="card" >
@@ -120,46 +148,59 @@
           
         </section>
         <!--section de portifolio-->
-        <section class="section-portifolio" id="section-portifolio"> 
+        <section class="section-portfolio" id="section-portifolio"> 
         <h2>Portifólio </h2>
         <h2 class="azul">de projetos.</h2>
-        <div class="section-portifolio-grid">
-            <div class="section-portifolio-card">
-                <img class="section-portifolio-img" src="img/supermercado.png" alt="Projeto supermercado">
+        <div class="section-portfolio-grid">
+            <div class="section-portfolio-card">
+                <img class="section-portfolio-img" 
+                 src="img/supermercado.png"
+                 alt="Projeto supermercado">
                  <h5>Supermarket list</h5>
                  <p class="card">Aplicação React com Express e MongoDB.</p>
-                 <div class="section-portifolio-card-links">
-                    <a href="">
-                        <img class="section-portifolio-card-list-img" src="icons/link.png" alt="link do projeto">
+                 <div class="section-portfolio-card-links">
+                    <a >
+                        <img class="section-portfolio-card-icon-image" src="icons/link.png" 
+                        alt="link do projeto">
                     </a>
-                    <a href="">
-                        <img class="section-portifolio-card-list-img" src="icons/github.png" alt="GitHub do projeto">
+                    <a >
+                        <img class="section-portfolio-card-icon-image" src="icons/github.png" 
+                        alt="GitHub do projeto">
                     </a>
                 </div>
             </div>
-            <div class="section-portifolio-card">
-                <img class="section-portifolio-img" src="img/book.png" alt="Projeto bookList">
+            <div class="section-portfolio-card">
+                <img class="section-portfolio-img"
+                 src="img/book.png" 
+                 alt="Projeto bookList">
                 <h5>BookClub</h5>
                 <p class="card">Aplicação React com Express, Sequelize e AWS.</p>
-                <div class="section-portifolio-card-links">
-                    <a href="">
-                        <img class="section-portifolio-card-list-img" src="icons/link.png" alt="link do projeto">
+                <div class="section-portfolio-card-links">
+                    <a >
+                        <img class="section-portfolio-card-icon-image" src="icons/link.png"
+                         alt="link do projeto">
                     </a>
-                    <a href="">
-                        <img class="section-portifolio-card-list-img" src="icons/github.png" alt="GitHub do projeto">
+                    <a >
+                        <img class="section-portfolio-card-icon-image" src="icons/github.png" 
+                        alt="GitHub do projeto">
                     </a>
                 </div>
             </div>
-            <div class="section-portifolio-card">
-                <img class="section-portifolio-img" src="img/wallet.png" alt="Projeto wallet">
+            <div class="section-portfolio-card">
+                <img class="section-portfolio-img"
+                  src="img/wallet.png"
+                  alt="Projeto wallet">
                 <h5>Wallet</h5>
                 <p class="card">App será desenvolvido durante o curso "Mapa da programação".</p>
-                <div class="section-portifolio-card-links">
-                    <a href="">
-                        <img class="section-portifolio-card-list-img" src="icons/link.png" alt="link do projeto">
+                <div class="section-portfolio-card-links">
+                    <a>
+                        <img class="section-portfolio-card-icon-image" src="icons/link.png"
+                         alt="link do projeto">
                     </a>
-                    <a href="">
-                        <img class="section-portifolio-card-list-img" src="icons/github.png" alt="GitHub do projeto">
+                    <a >
+                        <img class="section-portfolio-card-icon-image"
+                        src="icons/github.png" 
+                        alt="GitHub do projeto">
                     </a>
                 </div>
             </div>
@@ -170,30 +211,29 @@
             <h2>Experiências</h2>
             <h2 class="azul">profissionais.</h2>
             <div class="section-experiences-card">
-                <img src="icons/estudos.png" alt="">
-                <div class="section-experiences-card-text-container">
-                <h6 class="section-experiences-card-title">Front-end Developer</h6>
-                <p class="section-experiences-card-subtitle">
-                   Ainda não possuo experiência em uma empresa de T.I. 
-                </p>
-                <p class="section-experiences-card-text">
-                    Estudo diariamente de uma a duas horas por dia, tecnologias referente ao front-end buscando me manter atualizado, para estar 100% preparado para minha 1° oportunidade como desenvolvedor.
-                 </p>
-                </div>
-                
+                <img class="section-experiences-card-img" src="icons/estudos.png" alt="">
+                    <div class="section-experiences-card-text-container">
+                        <h6 class="section-experiences-card-title">
+                            Front-end Developer</h6>
+                        <p class="section-experiences-card-text">
+                        Ainda não possuo experiência em uma empresa de T.I. 
+                        </p>
+                        <p class="section-experiences-card-text">
+                            Estudo diariamente de uma a duas horas por dia, tecnologias referente ao front-end buscando me manter atualizado, para estar 100% preparado para minha 1° oportunidade como desenvolvedor.
+                        </p>
+                    </div>
             </div>
             <div class="section-experiences-card">
-                <img src="icons/web.png" alt="">
-                <div class="section-experiences-card-text-container">
-                <h6 class="section-experiences-card-title">Front-end Junior</h6>
-                <p class="section-experiences-card-subtitle">
-                   Desenvolvimento local ou como freelancer 
-                </p>
-                <p class="section-experiences-card-text">
-                    Atualmente só desenvolvi projetos nos quais são ensinados nos cursos em que fiz, alguns deles deixei acima para poderem analisar.
-                 </p>
-                </div>
-                
+                <img class="section-experiences-card-img" src="icons/web.png" alt="">
+                    <div class="section-experiences-card-text-container">
+                        <h6 class="section-experiences-card-title">Front-end Junior</h6>
+                        <p class="section-experiences-card-subtitle">
+                        Desenvolvimento local ou como freelancer 
+                        </p>
+                        <p class="section-experiences-card-text">
+                            Atualmente só desenvolvi projetos nos quais são ensinados nos cursos em que fiz, alguns deles deixei acima para poderem analisar.
+                        </p>
+                    </div>
             </div>
         </section>
         <!--section de contato-->
@@ -202,12 +242,20 @@
             <h2 class="azul">te ajudar?</h2>
             <p>Estou a disposição para ajudar o seu projeto ou sua empresa. </p>
             <div class="section-contact-item">
-                <img class="section-contact-item-icon" src="icons/email.png" alt="meu email">
-               <a class="hover" href="malito:email@exemplo.com"> email@exemplo.com</a>
+                <img class="section-contact-item-icon" 
+                 src="icons/email.png"
+                 alt="meu email">
+               <a class="hover"
+                href="malito:email@exemplo.com">
+                 email@exemplo.com</a>
             </div>
             <div class="section-contact-item">
-                <img class="section-contact-item-icon" src="icons/telefone.png" alt="telefone">
-                <a class="hover" href="tel:(20)99999-9999">(20)99999-9999</p></a>
+                <img class="section-contact-item-icon"
+                 src="icons/telefone.png"
+                 alt="telefone">
+                <a class="hover"
+                 href="tel:(20)99999-9999">
+                 (20)99999-9999</p></a>
             </div>
         </section>
     </div>
@@ -218,20 +266,27 @@
         <h2 class="titulo-navegacao">André Miller</h2>
         <div class="footer-social-icons-container">
             <a onclick="onClickLink('https://github.com/AndreMiller97')">
-                <img class="hero-info-icons-img"  src="icons/github.png" alt="meu repositório no github">
+                <img class="hero-info-icons-img"  
+                src="icons/github.png" 
+                alt="meu repositório no github">
            </a>
            <a  onclick="onClickLink('https://www.linkedin.com/in/andre-miller-745587197')">
-               <img class="hero-info-icons-img"  src="icons/linkdin.png" alt="link para meu linkdin">
+               <img class="hero-info-icons-img"
+                src="icons/linkdin.png" 
+                alt="link para meu linkdin">
            </a>
            <a href="">
-               <img class="hero-info-icons-img"  src="icons/youtube.png" alt="limk para meu canal no youtube">
+               <img class="hero-info-icons-img"  
+               src="icons/youtube.png" 
+               alt="limk para meu canal no youtube">
            </a>
            <a href="">
-               <img class="hero-info-icons-img"  src="icons/instagram.png" alt="link para meu instagram">
+               <img class="hero-info-icons-img"
+                src="icons/instagram.png"
+                 alt="link para meu instagram">
            </a>
         </div>
     </div>
    </footer>
-
 </body>
 </html>
