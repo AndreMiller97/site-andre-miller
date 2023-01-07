@@ -152,7 +152,11 @@ footer{
     height: 594px;
     padding-top: 64px;
 }
-
+.hero-info-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+  }
 .hero-info-subtitle{
     font-size: 20px;
     line-height: 28px;
